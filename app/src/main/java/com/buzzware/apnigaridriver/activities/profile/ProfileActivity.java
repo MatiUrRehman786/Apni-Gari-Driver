@@ -56,7 +56,7 @@ public class ProfileActivity extends BaseActivity {
 
         setListener();
 
-     //   setUserData();
+        setUserData();
 
     }
 
@@ -67,12 +67,11 @@ public class ProfileActivity extends BaseActivity {
         });
 
         binding.confirmBTN.setOnClickListener(v -> {
-          //  updateUserDataToFirestore();
-            finish();
+            updateUserDataToFirestore();
         });
 
         binding.editIV.setOnClickListener(v -> {
-           // checkPermissions();
+            checkPermissions();
         });
 
     }

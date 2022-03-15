@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ApniGari</string>
+    <string name="app_name">ApniGari Driver</string>
     <string name="login">Sign In</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="don_t_have_an_account_sign_up">Don’t have an account? Sign Up</string>
