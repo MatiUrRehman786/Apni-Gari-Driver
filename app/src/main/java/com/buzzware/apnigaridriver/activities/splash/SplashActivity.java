@@ -34,7 +34,7 @@ public class SplashActivity extends BaseActivity {
 
         setListeners();
 
-        inIt();
+     //   inIt();
 
     }
 

@@ -58,7 +58,12 @@ public class Login extends BaseActivity {
 
         binding.logInTV.setOnClickListener(view -> {
 
-            login();
+//            login();
+
+            startActivity(new Intent(Login.this, YourTrip.class));
+
+            finish();
+
         });
         binding.appBar.backIV.setOnClickListener(view -> {
 
@@ -162,7 +167,7 @@ public class Login extends BaseActivity {
                     @Override
                     public void positiveCallback(String input) {
 
-                        validateAndSendEmail(input);
+                      //  validateAndSendEmail(input);
 
                     }
 

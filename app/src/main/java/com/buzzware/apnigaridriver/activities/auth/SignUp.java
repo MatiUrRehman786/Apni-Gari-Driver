@@ -61,7 +61,10 @@ public class SignUp extends BaseActivity {
         binding.signUpBtn.setOnClickListener(view ->
         {
 
-            signUp();
+           // signUp();
+            startActivity(new Intent(SignUp.this, YourTrip.class));
+
+            finish();
 
         });
 

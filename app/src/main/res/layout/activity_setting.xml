@@ -28,7 +28,7 @@
 
     <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/userIV"
-        app:riv_corner_radius="@dimen/_15sdp"
+        app:riv_corner_radius="@dimen/_50sdp"
         android:layout_width="@dimen/_80sdp"
         android:layout_height="@dimen/_80sdp"
         android:src="@drawable/user_thumbnail_image"

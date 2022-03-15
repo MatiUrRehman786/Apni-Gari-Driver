@@ -42,7 +42,7 @@ public class SettingActivity extends BaseNavDrawer {
 
         setListener();
 
-        setUserData();
+       // setUserData();
     }
 
     private void setUserData() {
@@ -119,24 +119,24 @@ public class SettingActivity extends BaseNavDrawer {
         });
         binding.logoutCL.setOnClickListener(v -> {
 
-            FirebaseAuth.getInstance().signOut();
+        //    FirebaseAuth.getInstance().signOut();
 
             startActivity(new Intent(SettingActivity.this, Login.class));
 
         });
 
-        binding.notificationSW.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-
-                if (b) {
-                    setFireBaseToken();
-                } else {
-                    addTokenToDB("");
-                }
-
-            }
-        });
+//        binding.notificationSW.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+//
+//                if (b) {
+//                    setFireBaseToken();
+//                } else {
+//                    addTokenToDB("");
+//                }
+//
+//            }
+//        });
 
     }
 
