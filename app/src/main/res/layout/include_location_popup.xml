@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/curved_gray_2x"
+    android:padding="@dimen/_20sdp">
+
+
+    <TextView
+        android:id="@+id/nameTV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/noto_bold"
+        android:maxLines="2"
+        android:text="Where are you going"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timeTV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/noto_regular"
+        android:maxLines="2"
+        android:text="Book on demand or pre-schedule rides"
+        android:textColor="@color/textGray"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTV2" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        app:layout_constraintTop_toBottomOf="@+id/timeTV3"
+        tools:layout_editor_absoluteX="19dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/locationLay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/white"
+            android:padding="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@+id/headerLay">
+
+
+            <ImageView
+                android:id="@+id/lightBlueDotIV"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:src="@drawable/light_blue_dot"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/lineIV"
+                android:layout_width="@dimen/_2sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/line"
+                app:layout_constraintTop_toBottomOf="@id/lightBlueDotIV"
+                app:layout_constraintStart_toStartOf="@id/lightBlueDotIV"
+                app:layout_constraintEnd_toEndOf="@id/lightBlueDotIV"
+                app:layout_constraintBottom_toTopOf="@id/blueDotIV"/>
+            <ImageView
+                android:id="@+id/blueDotIV"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:src="@drawable/blue_dot"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/noto_regular"
+                android:maxLines="2"
+                android:text="45  Sea Road, LAMPHEY"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/lightBlueDotIV"
+                app:layout_constraintBottom_toBottomOf="@id/lightBlueDotIV"
+                app:layout_constraintStart_toEndOf="@id/lightBlueDotIV"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:background="@color/dividerGray1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/blueDotIV"
+                app:layout_constraintTop_toBottomOf="@id/lightBlueDotIV"
+                app:layout_constraintBottom_toTopOf="@id/blueDotIV"/>
+
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/noto_regular"
+                android:maxLines="2"
+                android:text="82 Temple Way, WINTERINGHAM"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/blueDotIV"
+                app:layout_constraintBottom_toBottomOf="@id/blueDotIV"
+                app:layout_constraintStart_toEndOf="@id/blueDotIV"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/goBackTV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/curved_light_blue"
+        android:fontFamily="@font/noto_bold"
+        android:gravity="center"
+        android:paddingStart="@dimen/_25sdp"
+        android:paddingEnd="@dimen/_25sdp"
+        android:text="@string/go_back"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/timeTV3"
+        app:layout_constraintTop_toBottomOf="@id/cardView"
+        app:layout_constraintWidth_percent="0.4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

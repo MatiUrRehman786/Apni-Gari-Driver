@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/drawable/curved_top_default_color.xml" value="0.24427083333333333" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/drawable/curved_top_white.xml" value="0.24427083333333333" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_refer.xml" value="0.18" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_setting.xml" value="0.23020833333333332" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_sign_up.xml" value="0.27291666666666664" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_splash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_support.xml" value="0.1359375" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_wallet.xml" value="0.1640625" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/activity_your_trips.xml" value="0.228125" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/app_base_layout.xml" value="0.228125" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/drawer_menu.xml" value="0.228125" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/include_back_app_bar.xml" value="0.24427083333333333" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/include_back_app_bar_white.xml" value="0.27291666666666664" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/include_location_popup.xml" value="0.228125" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/include_menu_app_bar.xml" value="0.1359375" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/item_ride.xml" value="0.228125" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/layout/item_ride_upcomming.xml" value="0.24427083333333333" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/menu/bottom_navigation.xml" value="0.16354166666666667" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/menu/navigation_drawer.xml" value="0.16354166666666667" />
+        <entry key="..\:/Buzzware/Apni Gari Driver/app/src/main/res/menu/overflow.xml" value="0.16354166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
